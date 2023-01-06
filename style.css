@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: #555555;
+}
+
+/*Nav-Bar Section*/
+
+.container{
+    max-width: 13000px;
+    margin: auto;
+    padding: 0 25px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid red;
+}
+nav{
+    flex: 1;
+    border: 1px solid red;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid red;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
