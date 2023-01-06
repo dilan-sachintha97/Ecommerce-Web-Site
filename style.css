@@ -6,28 +6,33 @@
 p{
     color: #555555;
 }
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.home-page{
+   background: radial-gradient(#ffeaa7,#fdcb6e);
+}
 
 /*Nav-Bar Section*/
-
-.container{
-    max-width: 13000px;
-    margin: auto;
-    padding: 0 25px;
-}
 .nav-bar{
     display: flex;
     align-items: center;
     padding: 20px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+}
+.nav-bar img{
+    /*border: 1px solid red;*/
+    margin-top: -15px;
 }
 nav{
     flex: 1;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 nav ul{
     list-style: none;
     display: inline-block;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     float: right;
 }
 nav ul li{
@@ -37,4 +42,32 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #555;
+}
+.col-2{
+    border: 1px solid black;
+}
+
+.row{
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#text-content{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*border: 1px solid red;*/
+}
+
+.btn{
+    /*display: inline-block;*/
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
 }
